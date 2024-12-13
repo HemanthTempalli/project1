@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/TEMPALLI HEMANTH/Downloads/trained_model.sav', 'rb')) 
+loaded_model = pickle.load(open('model/trained_model.sav', 'rb')) 
 
 
 #creating function for prediction
